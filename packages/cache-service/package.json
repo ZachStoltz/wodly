@@ -1,0 +1,19 @@
+{
+  "name": "wodly-cache-service",
+  "version": "0.0.1",
+  "description": "Wodly's Caching Service",
+  "repository": "https://github.com/ZachStoltz/wodly",
+  "author": "Zach Stoltz <zach@stoltz.io>",
+  "scripts": {
+    "start": "nodemon --experimental-modules app.mjs"
+  },
+  "private": true,
+  "dependencies": {
+    "redis": "^2.8.0",
+    "restify": "^6.0.1",
+    "restify-errors": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
