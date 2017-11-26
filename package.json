@@ -5,6 +5,9 @@
   "repository": "https://github.com/ZachStoltz/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "private": true,
+  "scripts": {
+    "test": "lerna run test"
+  },
   "devDependencies": {
     "lerna": "^2.4.0"
   }
