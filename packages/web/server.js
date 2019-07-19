@@ -1,8 +1,5 @@
-import express from 'express'
-import path from 'path'
-import dirModule from './dirname'
-
-const { __dirname } = dirModule
+const express = require('express')
+const path = require('path')
 const app = express()
 
 app.listen(process.env.NODE_PORT || 8080, () => {

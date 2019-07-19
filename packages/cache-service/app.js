@@ -1,6 +1,6 @@
-import restify from 'restify'
-import redis from 'redis'
-import util from 'util'
+const restify = require('restify')
+const redis = require('redis')
+const util = require('util')
 
 const server = restify.createServer()
 
