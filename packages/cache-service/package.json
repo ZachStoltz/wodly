@@ -5,7 +5,7 @@
   "repository": "https://github.com/ZachStoltz/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "scripts": {
-    "start": "nodemon --experimental-modules app.mjs",
+    "start": "nodemon app.js",
     "test": "jest -b"
   },
   "private": true,

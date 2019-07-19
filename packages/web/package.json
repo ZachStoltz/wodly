@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "Wodly's website",
-  "repository": "https://github.com/ZachStoltz/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "scripts": {
     "start": "concurrently \"npm run wds\" \"npm run start:server\"",
@@ -11,22 +10,20 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "wds": "react-scripts start",
-    "start:server": "nodemon --experimental-modules server.mjs"
+    "start:server": "nodemon server.js"
   },
   "proxy": "http://localhost:8080/",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "material-ui": "^1.0.0-beta.18",
-    "material-ui-icons": "^1.0.0-beta.17",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router-dom": "^4.2.2",
+    "@material-ui/core": "4.2.1",
+    "@material-ui/icons": "4.2.1",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-scripts": "1.0.14"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "flow-bin": "0.57.3",
     "path": "^0.12.7"
   }
 }
