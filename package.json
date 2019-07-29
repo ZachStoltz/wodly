@@ -1,17 +1,17 @@
 {
   "name": "wodly",
   "version": "0.0.1",
-  "description": "A Gym mangement system for members and owners.",
-  "repository": "https://github.com/ZachStoltz/wodly",
+  "description": "A Gym management system for members and owners.",
+  "repository": "https://github.com/coderockett/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "private": true,
   "scripts": {
     "test": "lerna run test"
   },
   "devDependencies": {
-    "lerna": "^3.16.0"
+    "lerna": "3.16.4"
   },
   "dependencies": {
-    "create-react-app": "^3.0.1"
+    "create-react-app": "3.0.1"
   }
 }

@@ -10,11 +10,11 @@
   },
   "private": true,
   "dependencies": {
-    "redis": "^2.8.0",
-    "restify": "^6.0.1",
-    "restify-errors": "^5.0.0"
+    "redis": "2.8.0",
+    "restify": "8.3.3",
+    "restify-errors": "8.0.1"
   },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "24.8.0"
   }
 }
