@@ -2,7 +2,7 @@
   "name": "wodly-cache-service",
   "version": "0.0.1",
   "description": "Wodly's Caching Service",
-  "repository": "https://github.com/ZachStoltz/wodly",
+  "repository": "https://github.com/coderockett/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "scripts": {
     "start": "nodemon app.js",
