@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Wodly's website",
+  "repository": "https://github.com/coderockett/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "scripts": {
     "start": "concurrently \"npm run wds\" \"npm run start:server\"",
@@ -23,7 +24,7 @@
     "react-scripts": "1.0.14"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0",
-    "path": "^0.12.7"
+    "concurrently": "4.1.1",
+    "path": "0.12.7"
   }
 }
