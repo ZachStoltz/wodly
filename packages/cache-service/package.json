@@ -1,20 +1,30 @@
 {
   "name": "wodly-cache-service",
   "version": "0.0.1",
+  "private": true,
   "description": "Wodly's Caching Service",
   "repository": "https://github.com/coderockett/wodly",
   "author": "Zach Stoltz <zach@stoltz.io>",
   "scripts": {
+    "precommit": "lint-staged",
     "start": "nodemon app.js",
     "test": "jest -b"
   },
-  "private": true,
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write",
+      "git add",
+      "jest --bail --findRelatedTests"
+    ]
+  },
   "dependencies": {
     "redis": "2.8.0",
     "restify": "8.3.3",
     "restify-errors": "8.0.1"
   },
   "devDependencies": {
-    "jest": "24.8.0"
+    "jest": "24.8.0",
+    "lint-staged": "^9.2.1"
   }
 }
